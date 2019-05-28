@@ -11,8 +11,9 @@ Tested on Python 3.6.x.
 The full [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) is available [here](https://drive.google.com/open?id=1p6WtrxprsjsiedQJkKVoiqvdrP1m9BuF). To resize the RGB images to 128 by 128 pixels, run `resize_celeba.py`.
 
 ## Training
-To train a model, simply specify the model type (`gan`, `wgan` or `lsgan`) with the appropriate hyperparameters. In case these parameters are not specified, the program reverts back to default training parameters from the original papers.
+To train a model, simply specify run sh on the selected model (e.g. `sh gan.sh`, `sh wgan.sh` or `sh lsgan.sh`) with the appropriate hyper-parameters.
 
+### Example hyper-aparmeters definition wgan.sh
 ```
 python train.py --type wgan \
            --nb-epochs 50 \
