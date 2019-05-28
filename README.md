@@ -23,9 +23,9 @@ python train.py --type wgan \
            --cuda
 ```
 
-### Comparision between DCGAN with and wihtout Ocatve Convolution
+### Comparision between DCGAN with and wihtout Octave Convolution
 
-![DCGAN with Ocatve Conv.](imgs/evo.png) 
+![DCGAN with Octave Conv.](imgs/evo.png) 
 
 ## References
 
