@@ -23,7 +23,7 @@ python train.py --type wgan \
            --cuda
 ```
 
-![latentexplore-gan](imgs/oct_evo.eps) 
+![DCGAN with Ocatve Conv.](imgs/evo.png) 
 
 ## References
 
