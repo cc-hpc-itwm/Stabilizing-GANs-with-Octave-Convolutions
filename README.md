@@ -42,7 +42,7 @@ This repo is the pytorch implementation of the following paper:
 
 ### Octave Convolution
 
-The code are heavily borrowed from a pytorch:
+The codes are heavily borrowed from a pytorch:
 
 >[Ocatve Convolution implementation](https://github.com/lxtGH/OctaveConv_pytorch).
 
