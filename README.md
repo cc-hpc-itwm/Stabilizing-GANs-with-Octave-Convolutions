@@ -14,13 +14,11 @@ The full [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) is available
 To train a model, simply specify the model type (`gan`, `wgan` or `lsgan`) with the appropriate hyperparameters. In case these parameters are not specified, the program reverts back to default training parameters from the original papers.
 
 ```
-./train.py --type wgan \
+python train.py --type wgan \
            --nb-epochs 50 \
-           --batch-size 64 \
            --learning-rate 0.00005 \
            --optimizer rmsprop \
            --critic 5 \
-           --ckpt ./../checkpoints/trained_wgan \
            --cuda
 ```
 
@@ -29,16 +27,14 @@ To train a model, simply specify the model type (`gan`, `wgan` or `lsgan`) with 
 ## References
 
 ### GAN
->Arjovsky et al. [Wasserstein Generative Adversarial Networks](https://arxiv.org/abs/1701.07875). In *Proceedings of the 34th International Conference on Machine Learning*, ICML 2017.
+>Arjovsky et al. [Wasserstein Generative Adversarial Networks](https://arxiv.org/abs/1701.07875).
 
->Goodfellow et al. [Generative Adversarial Nets](https://arxiv.org/abs/1406.2661). In *Advances in Neural Information
-Processing Systems 27: Annual Conference on Neural Information Processing Systems
-2014*, 2014.
+>Goodfellow et al. [Generative Adversarial Nets](https://arxiv.org/abs/1406.2661).
 
->Mao et al. [Multi-class Generative Adversarial Networks with the L2 Loss Function](https://arxiv.org/abs/1511.06434). arXiv,  abs/1611.04076, 2016.
+>Mao et al. [Multi-class Generative Adversarial Networks with the L2 Loss Function](https://arxiv.org/abs/1511.06434).
 
->Radford et al. [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/abs/1511.06434). arXiv, abs/1511.06434, 2015.
+>Radford et al. [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/abs/1511.06434). 
 
 ### Octave Convolution
->Chen et al. [Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution](https://arxiv.org/abs/1904.05049). arXiv, abs/1511.06434, 2015.
+>Chen et al. [Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution](https://arxiv.org/abs/1904.05049).
 
