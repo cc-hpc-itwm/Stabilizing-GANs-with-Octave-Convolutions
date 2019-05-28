@@ -2,8 +2,8 @@
 
 ## Dependencies
 Tested on Python 3.6.x.
-* [PyTorch](http://pytorch.org/)
-* [NumPy](http://www.numpy.org/)
+* [PyTorch](http://pytorch.org/) (1.0.1)
+* [NumPy](http://www.numpy.org/) (1.16.2)
 
 
 
