@@ -13,7 +13,7 @@ The full [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) is available
 ## Training
 To train a model, simply specify run sh on the selected model (e.g. `sh gan.sh`, `sh wgan.sh` or `sh lsgan.sh`) with the appropriate hyper-parameters.
 
-### Example hyper-aparmeters definition wgan.sh
+### Example hyper-parameters definition (wgan.sh)
 ```
 python train.py --type wgan \
            --nb-epochs 50 \
@@ -23,7 +23,7 @@ python train.py --type wgan \
            --cuda
 ```
 
-
+![DCGAN evolution](imgs/dcgan.pdf)
 
 ## References
 
