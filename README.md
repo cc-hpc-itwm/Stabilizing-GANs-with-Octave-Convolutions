@@ -1,5 +1,3 @@
-# Stabilizing GANs with Ocatve Convolutions
-
 # [Stabilizing GANs with Octave Convolutions](https://ift6135h18.wordpress.com)
 
 ## Dependencies
@@ -10,7 +8,7 @@ Tested on Python 3.6.x.
 
 
 ## CelebA dataset
-The full [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) is available [here](https://drive.google.com/open?id=1p6WtrxprsjsiedQJkKVoiqvdrP1m9BuF). To resize the RGB images to 64 by 64 pixels, run `CelebA_helper.py`.
+The full [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) is available [here](https://drive.google.com/open?id=1p6WtrxprsjsiedQJkKVoiqvdrP1m9BuF). To resize the RGB images to 128 by 128 pixels, run `resize_celeba.py`.
 
 ## Training
 To train a model, simply specify the model type (`gan`, `wgan` or `lsgan`) with the appropriate hyperparameters. In case these parameters are not specified, the program reverts back to default training parameters from the original papers.
