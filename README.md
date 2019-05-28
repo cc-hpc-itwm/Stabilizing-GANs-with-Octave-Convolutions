@@ -24,11 +24,12 @@ python train.py --type wgan \
 ```
 
 ### Comparision between DCGAN with and wihtout Ocatve Convolution
+
 [DCGAN with Ocatve Conv.](imgs/evo.png) 
 
 ## References
 
-This repo is the pytorch implementation of the following paper:
+This repo combines the pytorch implementation of the following paper:
 
 >Goodfellow et al. [Generative Adversarial Nets](https://arxiv.org/abs/1406.2661).
 
