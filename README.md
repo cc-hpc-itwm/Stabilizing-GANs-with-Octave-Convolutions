@@ -28,7 +28,8 @@ python train.py --type wgan \
 
 ## References
 
-### GAN
+This repo is the pytorch implementation of the following paper:
+
 >Goodfellow et al. [Generative Adversarial Nets](https://arxiv.org/abs/1406.2661).
 
 >Radford et al. [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/abs/1511.06434).
@@ -37,8 +38,14 @@ python train.py --type wgan \
 
 >Arjovsky et al. [Wasserstein Generative Adversarial Networks](https://arxiv.org/abs/1701.07875).
 
->Code based [GANs implementations](https://github.com/joeylitalien/celeba-gan-pytorch).
-### Octave Convolution
 >Chen et al. [Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution](https://arxiv.org/abs/1904.05049).
 
->Code based [Ocatve Convolution implementation](https://github.com/lxtGH/OctaveConv_pytorch).
+### Octave Convolution
+
+The code are heavily borrowed from a pytorch:
+
+>[Ocatve Convolution implementation](https://github.com/lxtGH/OctaveConv_pytorch).
+
+>[GANs implementations](https://github.com/joeylitalien/celeba-gan-pytorch).
+
+
