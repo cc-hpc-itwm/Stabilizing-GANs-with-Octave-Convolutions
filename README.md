@@ -23,7 +23,7 @@ python train.py --type wgan \
            --cuda
 ```
 
-[[/imgs/oct_evo-eps-converted-to.pdf|alt=octocat]]
+[/imgs/oct_evo-eps-converted-to.pdf|alt=octocat]
 
 ## References
 
