@@ -8,7 +8,7 @@ Tested on Python 3.6.x.
 
 
 ## CelebA dataset
-The full [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) is available [here](https://drive.google.com/open?id=1p6WtrxprsjsiedQJkKVoiqvdrP1m9BuF). To resize the RGB images to 128 by 128 pixels, run `resize_celeba.py`.
+The full [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) is available [here](https://drive.google.com/open?id=1p6WtrxprsjsiedQJkKVoiqvdrP1m9BuF). To resize the RGB images to 128 by 128 pixels, set the path and run `resize_celeba.py`.
 
 ## Training
 To train a model, simply specify run sh on the selected model (e.g. `sh gan.sh`, `sh wgan.sh` or `sh lsgan.sh`) with the appropriate hyper-parameters.
