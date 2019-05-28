@@ -23,7 +23,7 @@ python train.py --type wgan \
            --cuda
 ```
 
-![DCGAN evolution](imgs/oct_evo-eps-converted-to.pdf)
+![DCGAN evolution](/imgs/oct_evo-eps-converted-to.pdf)
 
 ## References
 
