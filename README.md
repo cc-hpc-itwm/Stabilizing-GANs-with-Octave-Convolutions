@@ -49,4 +49,14 @@ The codes are heavily borrowed from a pytorch:
 
 >[GANs implementations](https://github.com/joeylitalien/celeba-gan-pytorch).
 
+### Citation
+If this work is useful for your research, please cite our [paper](https://arxiv.org/abs/1905.12534):
+```
 
+@article{durall2019dropgan,
+  title={Stabilizing GANs with Octave Convolutions},
+  author={Durall, Ricard and Pfreundt, Franz-Josef and Keuper, Janis},
+  journal={arXiv preprint arXiv:1905.12534},
+  year={2019}
+}
+```
