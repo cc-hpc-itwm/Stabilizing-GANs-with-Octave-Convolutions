@@ -1,4 +1,4 @@
-# [Stabilizing GANs with Octave Convolutions](https://ift6135h18.wordpress.com)
+# [Stabilizing GANs with Octave Convolutions](https://arxiv.org/abs/1905.12534)
 
 ## Dependencies
 Tested on Python 3.6.x.
