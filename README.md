@@ -1,5 +1,6 @@
 # [Stabilizing GANs with Octave Convolutions](https://arxiv.org/abs/1905.12534)
 
+This repository provides the official PyTorch implementation of Stabilizing GANs with Octave Convolutions. 
 ## Dependencies
 Tested on Python 3.6.x.
 * [PyTorch](http://pytorch.org/) (1.0.1)
@@ -52,7 +53,6 @@ The codes are heavily borrowed from a pytorch:
 ### Citation
 If this work is useful for your research, please cite our [paper](https://arxiv.org/abs/1905.12534):
 ```
-
 @article{durall2019dropgan,
   title={Stabilizing GANs with Octave Convolutions},
   author={Durall, Ricard and Pfreundt, Franz-Josef and Keuper, Janis},
